@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.agusharyanto.implicitintent.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brainmatics Belajar Implicit Intent"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Pesan McDonald"
+        android:id="@+id/btnMcDonald"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Pesan KFC"
+        android:id="@+id/btnKFC"/>
+    <Button
+        android:text="Belajar Android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btnBelajarAndroid"/>
+    <Button
+        android:text="Detik"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDetik"
+        android:layout_width="match_parent"/>
+    <Button
+        android:text="Ambil Gambar"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnKamera"
+        android:layout_width="match_parent"/>
+    <Button
+        android:text="Peta"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMap"
+        android:layout_width="match_parent"/>
+    <Button
+        android:text="Barcode"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBarcode"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>
